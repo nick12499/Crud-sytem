@@ -1,0 +1,9 @@
+CREATE DATABASE crud_db;
+USE crud_db;
+
+CREATE TABLE items (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    image VARCHAR(255) NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    description TEXT NOT NULL
+);
